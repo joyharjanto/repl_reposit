@@ -1,0 +1,224 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+.backgColorStyle {
+    background-color: #000029;
+    min-height: 100vh;
+
+  }
+
+.privacyPolicy{
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: left;
+}
+
+.gap {
+    margin-top: 100px;
+}
+
+.padding-top {
+    padding-top: 50px;
+}
+
+
+.whiteFont {
+    color: #f5f2f2;
+}
+
+.greyFont{
+    color: #d1d1d1;
+
+}
+
+.yellowFont{
+    color: #f0e992;
+}
+
+.custom {
+    background: linear-gradient(#ffea60, #5739ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+.noto-sans-mono-font{
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+  }
+
+
+.lexend-font {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.scroll {
+    position: relative;
+    width: 100%;
+    /* background-color: $boxify-bg-light-dark; */
+    overflow: hidden;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.m-scroll {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    animation: scrollText 10s infinite linear;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+span {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@keyframes scrollText {
+from {
+    transform: translateX(100%);
+}
+to {
+    transform: translateX(-100%);
+}
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; /* Responsive width */
+    max-width: 960px; /* Maximum width */
+    justify-content: center; /* Center children */
+    margin: auto; /* Center the container */
+}
+
+.box {
+    width: 300px; 
+    height: 240px; 
+    margin: 15px; 
+    padding: 10px;
+    border: 5px solid transparent; 
+    background: 
+        linear-gradient(#000029, #000029) padding-box, 
+        linear-gradient(to right, #ffea60, #5739ff) border-box; 
+    box-sizing: border-box;
+    border-radius: 15px; /* Add this line to make corners rounded */
+} 
+
+
+.poppins-bold-grey {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #d1d1d1;
+    font-style: normal;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.text {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.box:hover .text {
+    animation: fadeInUp 1s ease-out forwards;
+}
+  
+.dropdown-bg-black {
+    background-color: black;
+    color: white; /* Ensure text is visible against the black background */
+  }
+ul ul { 
+    margin-left: 20px; 
+    padding-left: 0;
+  }
+
+.video-container {
+    width: 1000px; /* Adjust to your preferred fixed width */
+    display: flex;
+    flex-direction: column;
+}
+
+.video-header {
+    background-color: "#fce7b8";
+    padding: '1em';
+    border-radius: '10px';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-title {
+    font-size: '20px';
+    color: '#000029';
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-items: left;
+}
+
+.export-button {
+    margin-left: auto;
+    background-color: black;
+    color: white;
+}
+
+.video-content {
+    padding-top: '2em';
+    overflow-y: auto; /* Adjust as needed to handle overflow */
+    max-height: 300px; 
+}
+
+.rubik-font {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 200;
+}
+  
+.customSub{
+    margin-top: 1em;
+    padding: 1em 1em;
+    color: black;
+    background-color: #F8F5F5;
+    border-radius: 7px;
+
+}
+
+.manrope-font{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
